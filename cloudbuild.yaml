@@ -3,4 +3,5 @@ steps:
     args: ['build', '-t', 'gcr.io/my-gcp-website-464317/my-gcp-site', '.']
 images:
   - 'gcr.io/my-gcp-website-464317/my-gcp-site'
-
+options:
+  logging: CLOUD_LOGGING_ONLY
