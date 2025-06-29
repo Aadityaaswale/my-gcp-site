@@ -5,10 +5,11 @@ steps:
     args: [
       'run', 'deploy', 'my-gcp-site',
       '--image', 'gcr.io/my-gcp-website-464317/my-gcp-site',
-      '--region', 'asia-south1',
+      '--region', 'us-central1',
       '--allow-unauthenticated'
     ]
 images:
   - 'gcr.io/my-gcp-website-464317/my-gcp-site'
 options:
   logging: CLOUD_LOGGING_ONLY
+
